@@ -1,3 +1,26 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //Purpose of the server.js file (acts as text section here on GitHub): To help define the 4 endpoint functions and information needed to perform the 4 API tasks of listUsers, addUser, showDetail (or ":id"), and deleteUser (Tutorialspoint.com, n.d.). This .js file acts as the entry point and references the users.json file, which helps people be able to execute the 4 endpoint functions within the API application of Postman.
 
 //defines the express, app, and fs variables while also making sure express, fs, and express() parts are executed and fully fleshed out.

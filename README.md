@@ -2,7 +2,7 @@
 //Purpose of the assignment: Making a repository for server from unit 1, which is based on the Tutorialspoint.com article on Node.js, after making the server.js 
 //and users.json files, installing node and npm, typing in the npm commands in command prompt, and executing the 4 endpoint functions of listUsers, addUser,
 //showDetail, and deleteUser.
-//Note: View in "raw" to see correct spacing regardding each file.
+//Note: View in "raw" to see correct spacing regarding each file.
 
 //Purpose of the users.json file below (text section here): To define three starting users and information about them in order to work together with the server.js file
 //and when working within API applications.

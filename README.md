@@ -89,7 +89,7 @@ app.get('/:id', function (req, res) {
    });
 })
 
-//deleteUser: Purpose here is to remove a user based on equalling a certain Id. 
+//deleteUser: Purpose here is to remove a user based on equaling a certain Id. 
 //In the case of the code below, this corresponds to user 2 and results in having information on users 1 and 3 remain.
 //deleteUser is executed in Postman through using the "DELETE" technique, typing in "localhost:8081/deleteUser," and pushing the "Send" button 
 //(Tutorialspoint.com, n.d.).

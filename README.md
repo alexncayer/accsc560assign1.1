@@ -2,7 +2,8 @@
 //Purpose of the assignment: Making a repository for server from unit 1, which is based on the Tutorialspoint.com article on Node.js, after making the server.js and users.json files, installing node and npm, typing in the npm commands in command prompt, and executing the 4 endpoint functions of listUsers, addUser, showDetail, and deleteUser.
 //Note: View in "raw" to see correct spacing regardding each file.
 
-//Purpose of the users.json file below (text section here): To define three starting users and information about them in order to work together with the server.js file and when working within API applications like Postman.
+//Purpose of the users.json file below (text section here): To define three starting users and information about them in order to work together with the server.js file and when working within API applications.
+//Postman, as noted by them on their web page, is one example of a API application and "platform" (Postman, n.d.). 
 {
    "user1" : {
       "name" : "mahesh",
@@ -30,7 +31,9 @@
 
 //Beginning of server.js file down below:
 
-//Purpose of the server.js file below (acts as text section here on GitHub): To help define the 4 endpoint functions and information needed to perform the 4 API tasks of listUsers, addUser, showDetail (or ":id"), and deleteUser (Tutorialspoint.com, n.d.). These requests are made in Postman by creating a new HTTP request for each task as noted in Dr. Litman's Week 1 presentation slides (Litman, 2023). This .js file acts as the entry point and references the users.json file, which helps people be able to execute the 4 endpoint functions within the API application of Postman.
+//Purpose of the server.js file below (acts as text section here on GitHub): To help define the 4 endpoint functions and information needed to perform the 4 API tasks of listUsers, addUser, showDetail (or ":id"), and deleteUser (Tutorialspoint.com, n.d.). 
+//These requests are made in Postman by creating a new HTTP request for each task as noted in Dr. Litman's Week 1 presentation slides (Litman, 2023). 
+//This .js file acts as the entry point and references the users.json file, which helps people be able to execute the 4 endpoint functions within the API application of Postman.
 
 //defines the express, app, and fs variables while also making sure express, fs, and express() parts are executed and fully fleshed out.
 var express = require('express');
